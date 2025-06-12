@@ -1,4 +1,7 @@
+import { Canvas } from "@react-three/fiber"
 import Button from "../components/Button"
+import HeroExperience from "../components/HeroModels/HeroExperience"
+import Particles from "../components/HeroModels/Particles"
 import { words } from "../constants"
 
 
@@ -34,12 +37,19 @@ const Hero = () => {
                         <h1>that deliver results</h1>
                     </div>
                     <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                        Hi, I'm Ghanshyam, a software engineer with a keen interest in <br /> Web Development, DevOps and Cloud Services.
+                        Hi, I'm Ghanshyam, a software engineer with a keen interest in <br />
+                        Web Development, DevOps and Cloud Services.
                     </p>
 
                     <Button className='md:w-80 md:h-16 w-60 h-12' id='button' text='See my work' />
                 </div>
             </header>
+
+            <figure>
+                <div className="hero-3d-layout">
+                    <HeroExperience />
+                </div>
+            </figure>
         </div>
     </section>
   )

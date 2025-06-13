@@ -104,16 +104,15 @@ section {
 
   .navbar {
     @apply fixed w-full left-1/2 py-5 px-5 md:px-20 -translate-x-1/2 z-[100] transition-all duration-300 ease-in-out;
-    @apply fixed top-0 w-350 z-50 backdrop-blur-2xl bg-white/5 border-b border-white/10 rounded-2xl mt-3;
 
     &.scrolled {
       /* @apply top-0 bg-black; */
-      @apply fixed top-0 w-350 z-50 backdrop-blur-2xl bg-white/5 border-b border-white/10 shadow-sm rounded-2xl mt-5;
+      @apply fixed top-0 w-full z-50 backdrop-blur-xl bg-white/5 border-b border-white/10 shadow-sm rounded-2xl mt-5;
     }
 
     &.not-scrolled {
       /* @apply md:top-10 top-0 bg-transparent; */
-      @apply fixed top-0 w-350 z-50 backdrop-blur-2xl bg-white/5 border-b border-white/10 shadow-sm rounded-2xl mt-5;
+      @apply fixed top-0 w-full z-50 backdrop-blur-2xl bg-white/5 border-b border-white/10 shadow-sm rounded-2xl mt-5;
     }
 
     .inner {

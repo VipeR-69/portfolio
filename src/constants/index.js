@@ -74,7 +74,7 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
+    title: "Quality Focused",
     desc: "Delivering high-quality results while maintaining attention to every detail.",
   },
   {
@@ -84,8 +84,8 @@ const abilities = [
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    title: "Driven. Passionate. Dedicated.",
+    desc: "Making sure projects are completed passionately on schedule, with quality.",
   },
 ];
 

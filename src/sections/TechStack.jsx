@@ -37,22 +37,10 @@ const TechStack = () => {
                                     <img src={icon.imgPath}/>
                                     {icon.name}
                                 </div>
-
-                                {/* <div className='px-5 font-semibold'>
-                                    {icon.name}
-                                </div> */}
                             </div>
                         </div>
                     ))}
                 </div>
-
-                {/* <div className='tech-grid'>
-                    {techStackIcons.map((icon) => (
-                        <div key={icon.name} className='card-border tech-card overflow-hidden group xl:rounded-full rounded-lg'>
-                            <div className='tech-card-animated-bg' />
-                        </div>
-                    ))}
-                </div> */}
             </div>
         </div>
     )

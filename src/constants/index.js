@@ -12,8 +12,8 @@ const navLinks = [
     link: "#skills",
   },
   {
-    name: "Testimonials",
-    link: "#testimonials",
+    name: "Resume",
+    link: "https://docs.google.com/document/d/11GKHAJbR33KRattjRJJzlN9-AuWREMg2xvJ_R8noBFc/edit?usp=sharing",
   },
 ];
 
@@ -289,20 +289,19 @@ const testimonials = [
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
+    name: "github",
+    imgPath: "/images/github.svg",
+    url: "https://github.com/VipeR-69/",
   },
   {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
+    name: "leetcode",
+    imgPath: "/images/leetcode-colored.png",
+    url: "https://leetcode.com/u/Cpt_VipeR/",
   },
   {
     name: "linkedin",
-    imgPath: "/images/linkedin.png",
+    imgPath: "/images/linkedin-colored.svg",
+    url: "https://www.linkedin.com/in/ghanshyam-gautam-dev/",
   },
 ];
 

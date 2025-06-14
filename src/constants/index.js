@@ -114,48 +114,91 @@ const techStackImgs = [
 
 const techStackIcons = [
   {
-    name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
-    scale: 1,
-    rotation: [0, 0, 0],
+    name: "Java",
+    imgPath: "/images/java.svg",
   },
   {
-    name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
-    rotation: [0, 0, 0],
+    name: "JavaScript",
+    imgPath: "/images/javascript.svg",
   },
   {
-    name: "Backend Developer",
-    modelPath: "/models/node-transformed.glb",
-    scale: 5,
-    rotation: [0, -Math.PI / 2, 0],
+    name: "Python",
+    imgPath: "/images/python.svg",
   },
   {
-    name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
-    scale: 0.05,
-    rotation: [0, 0, 0],
+    name: "Node.js",
+    imgPath: "/images/node-js.svg",
   },
   {
-    name: "Project Manager",
-    modelPath: "/models/git-svg-transformed.glb",
-    scale: 0.05,
-    rotation: [0, -Math.PI / 4, 0],
+    name: "Express.js",
+    imgPath: "/images/express-js.svg",
+  },
+  {
+    name: "React.js",
+    imgPath: "/images/react-js.svg",
+  },
+  {
+    name: "MongoDB",
+    imgPath: "/images/mongodb.svg",
+  },
+  {
+    name: "MySQL",
+    imgPath: "/images/mysql.svg",
+  },
+  {
+    name: "PostgreSQL",
+    imgPath: "/images/postgresql.svg",
+  },
+  {
+    name: "HTML",
+    imgPath: "/images/html.svg",
+  },
+  {
+    name: "Tailwind CSS",
+    imgPath: "/images/tailwindcss.svg",
+  },
+  {
+    name: "Nginx",
+    imgPath: "/images/nginx.svg",
+  },
+  {
+    name: "AWS",
+    imgPath: "/images/aws.svg",
+  },
+  {
+    name: "GCP",
+    imgPath: "/images/gcp.svg",
+  },
+  {
+    name: "Docker",
+    imgPath: "/images/docker.svg",
+  },
+  {
+    name: "Linux",
+    imgPath: "/images/linux.png",
+  },
+  {
+    name: "Git",
+    imgPath: "/images/git.svg",
+  },
+  {
+    name: "GitHub",
+    imgPath: "/images/github.svg",
   },
 ];
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review: "Ghanshyam held key responsibilities within our Quality Assurance team. His role involved performing comprehensive quality assurance for multiple websites and for P360's flagship HCP engagement mobile application, 'Zing.' He conducted rigorous testing on physical devices, ensuring the high functionality and reliability of these products.",
     imgPath: "/images/p360-banner.png",
     logoPath: "/images/p360-logo.png",
     title: "QA / Web Developer Intern",
-    date: "May 2024 - October 2024",
+    date: "May 2024 - October 2024 (New Jersey, USA) (Remote)",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Tested multiple websites for quality assurance.",
+      "Designed email templates for various clients.",
+      "Contributed to testing company's key projects, 'Zing', a flagship HCP engagement application across iOS, Android and Desktop platforms.",
+      "Developed comprehensive test cases to validate both the application's functionality and user interface.",
     ],
   },
   // {

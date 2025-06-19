@@ -106,7 +106,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="xl:col-span-7 min-h-96">
-            <div className="bg-[#3949AB] w-full h-full rounded-3xl overflow-hidden flex justify-center items-center">
+            <div className="bg-[#3949AB] h-80 w-80 rounded-full md:w-full md:h-full md:rounded-3xl overflow-hidden flex justify-center items-center">
                 <img src="/images/workplace.png" className="size-140" />
             </div>
           </div>

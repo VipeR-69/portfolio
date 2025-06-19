@@ -2,6 +2,7 @@ import { useRef } from "react"
 import { gsap } from 'gsap'
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from '@gsap/react'
+import TitleHeader from "../components/TitleHeader";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -25,7 +26,7 @@ const ShowcaseSection = () => {
                 y: 0,
                 opacity: 1,
                 duration: 1,
-                delay: 0.2 * (index + 1),
+                delay: 0.1 * (index + 1),
                 scrollTrigger: {
                     trigger: card,
                     start: 'top bottom-=100'
@@ -39,6 +40,9 @@ const ShowcaseSection = () => {
   return (
     <section id="work" ref={sectionRef} className="app-showcase">
         <div className="w-full">
+            <div className='w-full h-full md:px-20 px-5 mb-13'>
+                <TitleHeader title='My Projects' sub="💼 What Have I Created" />
+            </div>
             <div className="showcaselayout">
                 {/* LEFT */}
                 <div className="first-project-wrapper" ref={project1Ref}>

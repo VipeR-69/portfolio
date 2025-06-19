@@ -11,7 +11,7 @@ const TechStack = () => {
         gsap.fromTo('.tech-card', { y: 70, opacity: 0}, {
             y: 0,
             opacity: 1,
-            duration: 1,
+            duration: 0.7,
             ease: 'power2.inOut',
             stagger: 0.2,
             scrollTrigger: {

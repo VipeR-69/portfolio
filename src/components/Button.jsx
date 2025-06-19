@@ -4,7 +4,7 @@ const Button = ({ text, className, id }) => {
       onClick={(e) => {
         e.preventDefault();
 
-        const target = document.getElementById('counter');
+        const target = document.getElementById('aboutme');
 
         if(target && id){
           const offest = window.innerHeight * 0.15;

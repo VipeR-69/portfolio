@@ -23,7 +23,7 @@ const AboutMe = () => {
             className="w-40 h-40 rounded-full object-cover border border-gray-600"
           />
           <p className="mt-6 text-gray-300 text-base leading-7 max-w-md">
-            I'm, Ghanshyam Gautam, A Tech-savvy Software Engineer with a strong foundation in Programming Languages (like Java), Data Structures and Algorithms, Web Development, Cloud Services and DevOps. Passionate about problem-solving, innovation, and continuous learning, with a keen interest in building efficient and scalable solutions. Ghensi Chiyari.
+            I'm, Ghanshyam Gautam, A Tech-savvy Software Engineer with a strong foundation in Programming Languages (like Java), Data Structures and Algorithms, Web Development, Cloud Services and DevOps. Passionate about problem-solving, innovation, and continuous learning, with a keen interest in building efficient and scalable solutions.
           </p>
           <div className="flex items-center gap-2 mt-6 border-t border-gray-700 pt-4">
             <MapPin className="w-4 h-4 text-gray-400" />

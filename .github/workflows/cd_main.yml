@@ -17,8 +17,5 @@ jobs:
           touch /home/runner/.ssh/known_hosts
           echo "${{ secrets.KNOWN_HOSTS }}" &> /home/runner/.ssh/known_hosts
           chmod 700 /home/runner/ssh_key
-          ssh -i ~/ssh_key computershubham7@34.131.28.244
-          cd portfolio/ && git pull
-          npm install
-          npm run build
-          pm2 restart portfolio
+          ssh -i ~/ssh_key computershubham7@34.131.28.244 -t " cd portfolio/ && git pull && npm install && npm run build &&
+          pm2 restart portfolio" 

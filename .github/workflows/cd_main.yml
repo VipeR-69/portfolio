@@ -1,0 +1,19 @@
+name: Deploy to production
+on:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  redeploy_app:
+    runs-on: ubuntu-latest
+    name: Deploying the app to production
+
+    steps:
+      - run: |
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" &> ~/ssh_key
+          echo "yes" | ssh -i ~/ssh_key computershubham7@34.131.28.244
+          cd portfolio/ && git pull
+          npm install
+          npm run build
+          pm2 restart portfolio
